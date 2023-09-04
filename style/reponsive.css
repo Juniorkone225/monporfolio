@@ -1,0 +1,140 @@
+@media (max-width: 980px) {
+    .mobile_menu_icon {
+      width: 3.5rem;
+      height: 3rem;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+    }
+  
+    .mobile_menu_toggle {
+      background: var(--white);
+      width: 3.5rem;
+      height: 0.35rem;
+      position: relative;
+      border-radius: 0.35rem;
+      transition: all 0.5s ease-in-out;
+    }
+    .mobile_menu_toggle::before, .mobile_menu_toggle::after {
+      position: absolute;
+      content: "";
+      left: 0;
+      width: 100%;
+      height: 0.35rem;
+      background: var(--white);
+      border-radius: inherit;
+      transition: all 0.5s ease-in-out;
+    }
+    .mobile_menu_toggle::before {
+      transform: translateY(-0.9rem);
+    }
+    .mobile_menu_toggle::after {
+      transform: translateY(0.9rem);
+    }
+    .mobile_menu_toggle.active {
+      background: transparent;
+    }
+    .mobile_menu_toggle.active::before {
+      transform: rotate(45deg);
+    }
+    .mobile_menu_toggle.active::after {
+      transform: rotate(-45deg);
+    }
+  
+    .navigation {
+      justify-content: space-between;
+    }
+  
+    .nav_menu {
+      position: absolute;
+      top: 7rem;
+      left: 0;
+      width: 100%;
+      padding: 5rem 0;
+      flex-direction: column;
+      visibility: hidden;
+      pointer-events: none;
+      clip-path: circle(0% at 100% 0);
+      transition: all 0.5s ease-in-out;
+    }
+    .nav_menu .nav_list {
+      display: block;
+      text-align: center;
+      margin: 1.5rem 0;
+    }
+    .nav_menu.active {
+      background: var(--black);
+      visibility: visible;
+      pointer-events: auto;
+      display: flex;
+      clip-path: circle(150% at 50% 0);
+      transition: all 0.5s ease-in-out;
+      z-index: 5;
+    }
+  }
+
+  @media (max-width: 412px) {
+    .Accueil,.Accueils{
+      flex-direction: column-reverse;
+    }
+    .container_text{
+      width: 90%;
+    }
+    .container_text p{
+    width: 100%;
+    }
+    .container_img{
+      width: 90%;
+      text-align: center;
+    }
+    .container_img img{
+      width: 90%;
+    }
+    .Parcours_text{
+      margin: 2rem 0;
+    }
+    .Parcours_text h1{
+      font-size: 3rem;
+    }
+    .Parcours_text div{
+      width: 95%;
+     }
+     .Realisations{
+      padding: 0;
+     }
+     .contact_text{
+      flex-direction: column;
+      width: 100%;
+      
+    }
+    .social-media-list{
+      width: 50%;
+    }
+    .card_box{
+      flex-direction: column;
+      align-items: center;
+    }
+    .card{
+      width: 60%;
+      padding: 2rem 0;
+      text-align: center;
+    }
+    .contact_text aside{
+      width: 20rem;
+    }
+    .boite_contact1{
+      width: 90%;
+      margin: 1rem auto;
+     }
+     .container {
+      padding: 0;
+    }
+    .logo img {
+      margin-left: 1rem;
+    }
+    .mobile_menu_icon{
+      margin-right: 1rem;
+    }
+    
+  }
+  
