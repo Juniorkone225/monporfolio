@@ -45,8 +45,8 @@ img{
 	transition: all 0.3s ease;
 }
 .gallery .gallery-filter .filter-item.active{
-	color: #ff9800;
-	border-color : #ff9800;
+	color: var(--marron);
+	border-color : var(--marron);
 }
 .gallery .gallery-item{
 	width: calc(100% / 3);
