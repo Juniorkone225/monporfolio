@@ -7,6 +7,7 @@
     <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../animate.css">
     <link rel="stylesheet" href="../style/reponsive.css">
 </head>
 <body>     
@@ -44,7 +45,7 @@
                 </nav>
               </div>
             </header>
-            <section class="container" data-aos="fade-up"    data-aos-offset="300"    data-aos-easing="ease-in-sine">
+            <section class="container wow slideInRight" data-wow-delay="0.5s">
                 <div class="Accueil">
                     <div class="container_text Parcours_text" >
                         <h1>Parcours scolaire</h1>
@@ -90,7 +91,7 @@
                         </div>
 
                     </div>
-                    <div class="container_text Parcours_text" >
+                    <div class="container_text Parcours_text wow bounceInLeft" data-wow-offset="300" >
                         <h1>Experience professionelle</h1>
                         <div>
                             <aside>Depuis Juillet 2023</aside>
@@ -123,9 +124,27 @@
         </footer>
 <!-- presentation of the acceuil page -->           
 <script src="../script/script.js"></script>
+<script src="../script/wow.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
         AOS.init();
 </script>
+    <script>
+    wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       100,
+        callback:     function(box) {
+          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+        }
+      }
+    );
+    wow.init();
+    document.getElementById('moar').onclick = function() {
+      var section = document.createElement('section');
+      section.className = 'section--purple wow fadeInDown';
+      this.parentNode.insertBefore(section, this);
+    };
+  </script>
 </body>
 </html>
