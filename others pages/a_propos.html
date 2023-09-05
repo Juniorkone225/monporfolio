@@ -7,6 +7,7 @@
     <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/animate.css">
     <link rel="stylesheet" href="../style/reponsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   
@@ -48,7 +49,7 @@
             </header>
             <section class="container">
                 <div class="Accueil">
-                    <div class="container_text" >
+                    <div class="container_text wow bounceInLeft" data-wow-offset="300" >
                         <!-- <span>A propos de :</span> -->
                         <h1>A propos de :</h1>
                         <span>Ibrahim Kone</span>
@@ -73,7 +74,7 @@
                             limites de la créativité.
                         </p>
                     </div>
-                    <div class="container_img">
+                    <div class="container_img wow slideInRight" data-wow-delay="2s">
                         <img src="../img/moi1.png" alt="moi">
                     </div>
                 </div>
@@ -92,5 +93,23 @@
         AOS.init();
 </script>           
 <script src="../script/script.js"></script>
+    <script src="../script/wow.js"></script>
+    <script>
+    wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       100,
+        callback:     function(box) {
+          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+        }
+      }
+    );
+    wow.init();
+    document.getElementById('moar').onclick = function() {
+      var section = document.createElement('section');
+      section.className = 'section--purple wow fadeInDown';
+      this.parentNode.insertBefore(section, this);
+    };
+  </script>
 </body>
 </html>
