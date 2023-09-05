@@ -1,4 +1,11 @@
+:root{
+
+    --body:#312f30;
+  }
 @media (max-width: 980px) {
+    body{
+        background: var(--body);
+    }
     .mobile_menu_icon {
       width: 3.5rem;
       height: 3rem;
@@ -74,6 +81,9 @@
   }
 
   @media (max-width: 412px) {
+          body{
+        background: var(--body);
+    }
     .Accueil,.Accueils{
       flex-direction: column-reverse;
     }
