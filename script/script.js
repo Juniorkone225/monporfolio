@@ -17,7 +17,7 @@ window.addEventListener('scroll', () => {
   }
 });
 var typed = new Typed(".typing", {
-  strings: ["Infographiste", "Developpeur fond-end", "Monteur video"],
+  strings: ["Infographiste", "Developpeur frond-end", "Monteur video"],
   typeSpeed: 100,
   backSpeed: 60,
   loop: true
