@@ -27,7 +27,7 @@
   }
   body {
     font-size: 1.5rem;
-    background: linear-gradient( rgba(0, 0, 0, 0.629),rgba(0, 0, 0, 0.629)),url(../img/WhatsApp Image 2023-09-24 at 21.23.11.jpeg);
+    background: url(../img/fond1.jpeg);
     background-size: cover;
   }
   /* barre de navigation */
