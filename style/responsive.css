@@ -123,11 +123,15 @@
   }
 }
 @media (max-width: 412px) {
-  .bokh1,
-  .bokh2,
   .bokh3,
   .bokh4 {
-    display: none;
+    width: 150px;
+    height: 150px;
+  }
+  .bokh1,
+  .bokh2 {
+    width: 100px;
+    height: 100px;
   }
   .container {
     background-color: var(--black);
