@@ -1,155 +1,434 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ibrahim_porfolio</title>
-    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="style/reponsive.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" 
-    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
-     crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style/animate.css">
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!-- Link style CSS -->
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/responsive.css" />
+    <!-- Link fontawersome CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- loader  -->
+    <div class="loader_bg">
+      <div class="loaders"><span class="loader"></span></div>
+    </div>
+    <!-- end loader -->
+    <div id="progress-bar"></div>
+    <div class="background">
+      <span class="bokh1 random-move"></span>
+      <span class="bokh2 random-move"></span>
+      <span class="bokh3 random-move"></span>
+      <span class="bokh4 random-move"></span>
+    </div>
+    <header>
+      <div class="container">
+        <nav class="navigation">
+          <a href="index.html" class="logo">
+            <img src="images/icon1.png" alt="Logo" width="20" />
+          </a>
+
+          <div class="mobile_menu_icon">
+            <div class="mobile_menu_toggle"></div>
+          </div>
+
+          <ul class="nav_menu">
+            <div class="nav_links">
+              <li class="nav_list">
+                <a href="#Accueil" class="nav_link">Accueil</a>
+              </li>
+              <li class="nav_list">
+                <a href="#porfolio" class="nav_link">porfolio</a>
+              </li>
+              <li class="nav_list">
+                <a href="#competences" class="nav_link">competences</a>
+              </li>
+              <li class="nav_list">
+                <a href="#a_propos" class="nav_link">a propos</a>
+              </li>
+              <li class="nav_list">
+                <a href="#contact" class="nav_link">Contact</a>
+              </li>
+            </div>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="section_acceuil" id="Accueil">
+      <div class="section_acceuil_letf">
+        <div class="section_acceuil_letf_content">
+          <p>salut</p>
+          <p>je suis <span>Kone</span></p>
+          <p><span class="typing"></span></p>
+          <a href="tel:+2250767491516" target="_blank"
+            ><button class="btn">call me<i class="fa-brands fa-tel"></i></button
+          ></a>
+        </div>
+        <div class="reseau">
+          <span class="btn_reseau">reseau sociaux</span>
+          <a href="https://wa.me/0767491516" target="_blank"
+            ><i class="fa-brands fa-whatsapp"></i
+          ></a>
+          <a href="https://www.instagram.com/b_dsigner" target="_blank"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <i class="fa-brands fa-square-behance"></i>
+        </div>
+      </div>
+      <div class="aa">
+        <img src="images/moi.png" alt="" srcset="" />
+      </div>
+      <div class="section_acceuil_right">
+        <p>le developpement web</p>
+        <p>
+          pour un site web personnel qui vise à presenter un developpeur web et
+          infographiste
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa nam
+          accusantium iure sequi delectus. Dolore quae iste quisquam, ipsum
+          incidunt culpa, tempora deleniti laudantium eaque deserunt ab ducimus
+          magnam aliquid.
+        </p>
+        <p>jkone6475@gmail.com</p>
+        <span>telecharger cv</span>
+      </div>
+    </section>
+    <section class="section_porfolio" id="porfolio">
+      <h1>por<span>folio</span></h1>
+      <div class="section_porfolio-boite">
+        <div class="slide">
+          <!-- Swiper -->
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide Slide1"></div>
+              <div class="swiper-slide Slide2"></div>
+              <div class="swiper-slide Slide3"></div>
+              <div class="swiper-slide Slide4"></div>
+              <div class="swiper-slide Slide5"></div>
+              <div class="swiper-slide Slide6"></div>
+              <div class="swiper-slide Slide7"></div>
+              <div class="swiper-slide Slide8"></div>
+              <div class="swiper-slide Slide9"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+        <div class="section_porfolio_texte">
+          <div class="section_porfolio_texte1">
+            <p>categorie de projet</p>
+            <p><span class="categorie">categorie :</span> web</p>
+            <p><span class="categorie">categorie :</span> infographie</p>
+            <p><span class="categorie">categorie :</span> montage video</p>
+          </div>
+          <div class="section_porfolio_texte2">
+            <h2>Lorem ipsum dolor sit, amet consectetur</h2>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Doloribus laudantium necessitatibus cumque, nobis recusandae ipsum
+              facilis nostrum tempora dignissimos distinctio velit ullam sequi,
+              ipsam vero. Maiores obcaecati inventore voluptate quo?
+            </p>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Doloribus laudantium necessitatibus cumque, nobis recusandae ipsum
+              facilis nostrum tempora dignissimos distinctio velit ullam sequi,
+              ipsam vero. Maiores obcaecati inventore voluptate quo?
+            </p>
+            <span class="btn">plus...</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section_competence" id="competences">
+      <h1>compe<span>tences</span></h1>
+      <div class="section_competence_boite1">
+        <div>photo</div>
+        <div>
+          <div class="about-skills">
+            <div class="skill-item">
+              <div class="skill-header">
+                <h6 class="skill-title">Web Design</h6>
+                <div class="skill-percentage">
+                  <p><span class="counter">95</span>%</p>
+                </div>
+              </div>
+              <div class="skill-bar">
+                <div class="bar-inner">
+                  <div class="bar progress-line" data-progress="95%"></div>
+                </div>
+              </div>
+            </div>
+            <!--===== Skill Item =====-->
+            <div class="skill-item">
+              <div class="skill-header">
+                <h6 class="skill-title">HTML/CSS</h6>
+                <div class="skill-percentage">
+                  <p><span class="counter">80</span>%</p>
+                </div>
+              </div>
+              <div class="skill-bar">
+                <div class="bar-inner">
+                  <div class="bar progress-line" data-progress="80%"></div>
+                </div>
+              </div>
+            </div>
+            <!--===== Skill Item =====-->
+            <div class="skill-item">
+              <div class="skill-header">
+                <h6 class="skill-title">JS</h6>
+                <div class="skill-percentage">
+                  <p><span class="counter">25</span>%</p>
+                </div>
+              </div>
+              <div class="skill-bar">
+                <div class="bar-inner">
+                  <div class="bar progress-line" data-progress="25%"></div>
+                </div>
+              </div>
+            </div>
+            <!--===== Skill Item =====-->
+            <div class="skill-item">
+              <div class="skill-header">
+                <h6 class="skill-title">PHP</h6>
+                <div class="skill-percentage">
+                  <p><span class="counter">35</span>%</p>
+                </div>
+              </div>
+              <div class="skill-bar">
+                <div class="bar-inner">
+                  <div class="bar progress-line" data-progress="35%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section_competence_boite1_content">
+        <div class="section_competence_boite1">
+          <div>
+            <div class="container_text Parcours_text">
+              <h1>Experience professionelle</h1>
+              <div>
+                <aside>Depuis Juillet 2023</aside>
+                <aside>Infographiste</aside>
+                <aside>
+                  Chargé de la conception de support de communication pour
+                  l'academie bleue d'Abidjan / ONG Hassan
+                </aside>
+              </div>
+              <div>
+                <aside>De Mai 2023 au 2 septembre</aside>
+                <aside>Infographiste / monteur vidéo</aside>
+                <aside>
+                  Chargé de la conception de support à imprimé et vidéo pour les
+                  elections municipales à Satama-Sokoro 2023
+                </aside>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="about-skills">
+              <div class="skill-item">
+                <div class="skill-header">
+                  <h6 class="skill-title">PHOTOSHOP</h6>
+                  <div class="skill-percentage">
+                    <p><span class="counter">65</span>%</p>
+                  </div>
+                </div>
+                <div class="skill-bar">
+                  <div class="bar-inner">
+                    <div class="bar progress-line" data-progress="65%"></div>
+                  </div>
+                </div>
+              </div>
+              <!--===== Skill Item =====-->
+              <div class="skill-item">
+                <div class="skill-header">
+                  <h6 class="skill-title">ILLUSTRATOR</h6>
+                  <div class="skill-percentage">
+                    <p><span class="counter">55</span>%</p>
+                  </div>
+                </div>
+                <div class="skill-bar">
+                  <div class="bar-inner">
+                    <div class="bar progress-line" data-progress="55%"></div>
+                  </div>
+                </div>
+              </div>
+              <!--===== Skill Item =====-->
+              <div class="skill-item">
+                <div class="skill-header">
+                  <h6 class="skill-title">PREMIER PRO</h6>
+                  <div class="skill-percentage">
+                    <p><span class="counter">45</span>%</p>
+                  </div>
+                </div>
+                <div class="skill-bar">
+                  <div class="bar-inner">
+                    <div class="bar progress-line" data-progress="45%"></div>
+                  </div>
+                </div>
+              </div>
+              <!--===== Skill Item =====-->
+              <div class="skill-item">
+                <div class="skill-header">
+                  <h6 class="skill-title">AFTER EFFECT</h6>
+                  <div class="skill-percentage">
+                    <p><span class="counter">25</span>%</p>
+                  </div>
+                </div>
+                <div class="skill-bar">
+                  <div class="bar-inner">
+                    <div class="bar progress-line" data-progress="25%"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section_apropos" id="a_propos">
+      <h1>a propos <span>de moi</span></h1>
+      <div>
+        <div class="circle_apropos"></div>
+        <div>
+          <p class="pp">
+            Je suis étudiant à l'ISTC Polytechnique, inscrit à l'école des Arts
+            et Images Numériques, où j'étudie en licence 3. Passionné par le
+            développement web et l'infographie, j'ai créé ce site pour partager
+            ma passion et mes connaissances avec vous.
+          </p>
+          <p class="pp">
+            Au fil de ma formation à l'ISTC Polytechnique, j'ai acquis une
+            solide expertise dans le domaine du développement web. Je suis
+            familier avec les langages de programmation tels que HTML, CSS et
+            JavaScript. J'ai également une connaissance approfondie des
+            principes de conception web et de l'expérience utilisateur.
+          </p>
+          <p class="pp">
+            L'infographie est un autre domaine qui m'enthousiasme. J'adore créer
+            des visuels attrayants et percutants pour communiquer efficacement
+            des idées et des concepts. je m'efforce toujours de repousser les
+            limites de la créativité.
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer class="footer" id="contact">
+      <div class="container_footer">
+        <div class="row">
+          <div class="footer-col">
+            <h4>compagnie</h4>
+            <ul>
+              <li><a href="#">Qui somme nous?</a></li>
+              <li><a href="#">Nos services</a></li>
+              <li><a href="#">Politique de confidentialité</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Besoin d’aide ?</h4>
+            <ul>
+              <li><a href="#">vos affiches et autre support à imprimé</a></li>
+              <li><a href="#">vos videos</a></li>
+              <li><a href="#">la creation de votre site web</a></li>
+              <li>
+                <a href="tel:+2250767491516">0767491516</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>menu</h4>
+            <ul>
+              <li><a href="#">acceuil</a></li>
+              <li><a href="#">porfolio</a></li>
+              <li><a href="#">competences</a></li>
+              <li><a href="#">à propos</a></li>
+              <li><a href="#">contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>suivez-moi</h4>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-behance"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="copyright">
+      <a href="mailto:bk.designer25@gmail.com"
+        ><h6>Copyright &copy; 2024 by bdesign</h6></a
+      >
+    </div>
+    <!--===== About Section End =====-->
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      // Initialize Swiper
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 2,
+        grid: {
+          rows: 2,
+        },
+        spaceBetween: 20,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+    <!-- Inclusion de jQuery depuis un CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".random-move").each(function () {
+          var bodyWidth = $("body").width();
+          var bodyHeight = $("body").height();
+
+          var randomTranslateX = Math.random() * (bodyWidth - 350); // 200 est la largeur de vos boîtes
+          var randomTranslateY = Math.random() * (bodyHeight - 350); // 200 est la hauteur de vos boîtes
+          var randomRotate = Math.random() * 360;
+
+          $(this).css({
+            transform:
+              "translate(" +
+              randomTranslateX +
+              "px, " +
+              randomTranslateY +
+              "px) rotate(" +
+              randomRotate +
+              "deg)",
+          });
+        });
+      });
+    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
-</head>
-     <style>
-    .wow:first-child {
-      visibility: hidden;
-    }
-  </style>
-<body>     
-            <!-- barre de navigation-->
-            <header>
-              <div class="container">
-                <nav class="navigation">
-                  <a href="index.html" class="logo">
-                    <img src="img/icon1.png" alt="Logo" width="50">
-                  </a>
-
-                  <div class="mobile_menu_icon">
-                    <div class="mobile_menu_toggle"></div>
-                  </div>
-
-                  <ul class="nav_menu">
-                        <div class="nav_links">
-                            <li class="nav_list">
-                                <a href="#" class="nav_link active">Accueil</a>
-                            </li>
-                            <li class="nav_list">
-                                <a href="others pages/a_propos.html" class="nav_link">A propos</a>
-                            </li>
-                            <li class="nav_list">
-                                <a href="others pages/parcour.html" class="nav_link">Parcours</a>
-                            </li>
-                            <li class="nav_list">
-                                <a href="others pages/realisation.html" class="nav_link">Realisations</a>
-                            </li>
-                            <li class="nav_list">
-                                <a href="others pages/contact.html" class="nav_link">Contact</a>
-                            </li>
-                        </div>
-                  </ul>
-                </nav>
-              </div>
-            </header>
-            <section class="container">
-                <div class="Accueil">
-                    <div class="container_text">
-                        <!-- <span>bonjour</span> -->
-                        <h1>Ibrahim Kone</h1>
-                        <p> Je suis <span class="typing"></span></p>
-                        <p>
-                            Sur ce site, vous trouverez une sélection de mes travaux, mettant en avant
-                            mes compétences en développement web et en infographie.
-                        </p>
-                        <p>Cliquez sur l'une des icônes ci-dessous : </p>
-                        <p class="icon_reseau">
-                                <!-- <a href="https://www.instagram.com/b_dsigner" target="_blank" class="hvr-ripple-out"><i class="fa-brands fa-instagram"></i></a>
-                                <a href="https://wa.me/0767491516"  target="_blank" class="hvr-ripple-out"><i class="fa-brands fa-whatsapp"></i></a> -->
-                                        <ul class="social-media-list">
-                                            <a href="https://www.instagram.com/b_dsigner" target="_blank" class="contact-icon">
-                                                <li>
-                                                        <i class="fa-brands fa-instagram" aria-hidden="true"></i>
-                                                </li>
-                                            </a>
-
-                                        
-                                            <a href="https://wa.me/+2250767491516"  target="_blank" class="hvr-ripple-out">
-                                                <li>  
-                                                    <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
-                                                </li>
-                                            </a>
-                                        
-                                        </ul>
-                        </p>
-                    </div>
-                    <div class="container_img wow slideInRight" data-wow-delay="0.2s" >
-                        <img src="img/moi1.png" alt="moi">
-                    </div>
-                </div>
-
-                <div class="card_box" >
-
-                    <div class="card wow slideInRight" data-wow-delay="0.3s" >
-                        <span><i class="fa-solid fa-pen-nib"></i></span>
-                        <h3>infographie</h3>
-                        <p class="descrip">
-                            Je vous aide dans la conception de vos supports de communication à imprimer (Affiche, Carte de visite & d'invitation, depliant, logo...)
-                        </p>
-                    </div>
-                    <div class="card wow slideInRight" data-wow-delay="0.6s">
-                        <span><i class="fa-solid fa-code"></i></span>
-                        <h3>developpement web</h3>
-                        <p class="descrip">
-                            Pour la création de site web interractive n'hesitez à entrer en contacte avec moi !
-                        </p>
-                    </div>
-                    <div class="card wow slideInRight" data-wow-delay="0.9s">
-                        <span><i class="fa-solid fa-video"></i></span>
-                        <h3>montage video</h3>
-                        <p class="descrip">
-                            et aussi pour la réalisation de vos videos de sensibilisation ou autre.
-                        </p>
-                    </div>
-            </div>
-            </section>
-    <footer>
-            <div class="footer1">
-                <p>
-                    &copy;copyrith by Ibrahim kone 2023
-                </p>
-            </div>
-    </footer>
-<!-- presentation of the acceuil page -->  
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-        AOS.init();
-</script> 
-    <script src="script/wow.js"></script>
-<script src="script/script.js"></script>
-     <script>
-    wow = new WOW(
-      {
-        animateClass: 'animated',
-        offset:       100,
-        callback:     function(box) {
-          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
-        }
-      }
-    );
-    wow.init();
-    document.getElementById('moar').onclick = function() {
-      var section = document.createElement('section');
-      section.className = 'section--purple wow fadeInDown';
-      this.parentNode.insertBefore(section, this);
-    };
-  </script>
-    
-</body>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <script src="script/script.js"></script>
+  </body>
 </html>
