@@ -130,7 +130,7 @@
     display: none;
   }
   .container {
-    background-color: var(--noir);
+    background-color: var(--black);
     /* height: 3rem; */
   }
   .logo img {
