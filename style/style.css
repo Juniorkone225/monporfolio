@@ -480,6 +480,30 @@ body {
 .Slide9 {
   background: url("../images/dr\ 21-min.png");
 }
+.Slide10 {
+  background: url("../images/f9.png");
+}
+.Slide11 {
+  background: url("../images/f10.png");
+}
+.Slide12 {
+  background: url("../images/Plan de travail 1.png");
+}
+.Slide13 {
+  background: url("../images/Plan de travail 13 copie 13.png");
+}
+.Slide14 {
+  background: url("../images/trefle affiche.png");
+}
+.Slide15 {
+  background: url("../images/f13.png");
+}
+.Slide16 {
+  background: url("../images/f12.png");
+}
+.Slide17 {
+  background: url("../images/f11.png");
+}
 .Slide1,
 .Slide2,
 .Slide3,
@@ -488,7 +512,15 @@ body {
 .Slide6,
 .Slide7,
 .Slide8,
-.Slide9 {
+.Slide9,
+.Slide10,
+.Slide11,
+.Slide12,
+.Slide13,
+.Slide14,
+.Slide15,
+.Slide16,
+.Slide17{
   background-size: cover;
 }
 /*-----------------------------------*\
