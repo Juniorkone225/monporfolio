@@ -48,7 +48,7 @@ window.addEventListener("scroll", () => {
   }
 });
 var typed = new Typed(".typing", {
-  strings: ["Infographiste 2D", "Developpeur web", "Monteur video"],
+  strings: ["Infographiste", "Developpeur web"],
   typeSpeed: 100,
   backSpeed: 60,
   loop: true,
