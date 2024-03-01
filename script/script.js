@@ -56,19 +56,19 @@ var typed = new Typed(".typing", {
 
 setTimeout(function () {
   $(".loader_bg").fadeToggle();
-}, 1500);
+}, 2500);
 ScrollReveal().reveal(".section_acceuil_letf_content", {
-  delay: 1700,
+  delay: 2700,
   distance: "60px",
   interval: 400,
 });
 ScrollReveal().reveal(".aa", {
-  delay: 1900,
+  delay: 2900,
   distance: "60px",
   interval: 400,
 });
 ScrollReveal().reveal(".section_acceuil_right", {
-  delay: 2100,
+  delay: 3100,
   distance: "60px",
   interval: 400,
 });
