@@ -122,7 +122,7 @@
     z-index: 5;
   }
 }
-@media (max-width: 412px) {
+@media (max-width: 612px) {
   .bokh3,
   .bokh4 {
     width: 150px;
