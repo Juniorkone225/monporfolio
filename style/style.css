@@ -450,6 +450,8 @@ body {
 
 .Slide1 {
  /*background: url("../images/mutuelle-min.png");*/
+  whidth: 240px;
+  height: 285px;
 }
 .Slide1 img{
   whidth: 100%;
