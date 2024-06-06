@@ -451,10 +451,10 @@ body {
 .Slide1 {
  /*background: url("../images/mutuelle-min.png");*/
 }
-.Slide1 img{
-  whidth: 100%;
+.swiper-slide img{
+  width: 100%;
 }
-.Slide2 {
+/*.Slide2 {
   background: url("../images/tauge\ master-min.png");
 }
 .Slide3 {
@@ -501,7 +501,7 @@ body {
 }
 .Slide17 {
   background: url("../images/f11.png");
-}
+}*/
 .Slide1,
 .Slide2,
 .Slide3,
