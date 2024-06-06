@@ -1,41 +1,29 @@
-/*-----------------------------------*\
-  #style.css
-\*-----------------------------------*/
-
-/**
- * copyright 2024 b_design website
- */
-
-/*-----------------------------------*\
-  #CUSTOM PROPERTY
-\*-----------------------------------*/
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 :root {
-  --clr-font-main: hsla(0 0% 20% / 100);
-  --btn-bg-1: #f16a67;
-  --btn-bg-2: #a61916;
-  --btn-bg-color: hsla(360 100% 100% / 1);
-  --radii: 0.5em;
   /**
-     * colors
-     */
-  --rouge_fonce1: #8e0e15;
-  --rouge_fonce2: #bb242a;
-  --rouge_fonce2: #370b0c;
+    colors
+**/
+  --noir_2: #2c2a35;
+  --noir_1: #1a1823;
+  --gris_1: #bfc4ce;
+  --gris_2: #484245;
   --blanc: #ffffff;
-  --black: rgb(6, 6, 6);
-  --black1: #232323;
-  --black2: #242424;
-  --black3: #1c1c1c;
-  --black4: #0f0f0f;
-  --black5: rgb(19, 19, 19);
+  --bleu_1: #0f358e;
+  --bleu_2: #709be7;
+  --rouge_1: #f91c3d;
+  --rouge_2: #fa2b56;
+  --marron_1: #dbc9a3;
+  --marron_2: #ba7b50;
+  --marron_3: #90552b;
 
   /**
-     * typography
-     */
+    typography
+**/
 
-  --ff-nunito: "Nunito", sans-serif;
-  --ff-open-sans: "nexa", sans-serif;
+  --ff-Poppins: "Poppins", sans-serif;
+  --ff-nexa: "nexa", sans-serif;
+  --fs-0: 4.125rem;
   --fs-1: 2.125rem;
   --fs-2: 1.875rem;
   --fs-3: 1.5rem;
@@ -43,74 +31,27 @@
   --fs-5: 1.125rem;
   --fs-6: 0.875rem;
   --fs-7: 0.625rem;
-
   --fw-400: 400;
   --fw-600: 600;
 
   /**
-     * transition
-     */
+       * transition
+       */
 
   --transition: 0.5s ease;
 
   /**
-    * spacing
-*/
+      * spacing
+  */
   --section-padding: 50px;
-  --shadow-2: 3px 3px 9px #1c1c1c;
-}
-
-/*-----------------------------------*\
-    #RESET
-\*-----------------------------------*/
-
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-li {
-  list-style: none;
 }
 
 a {
   text-decoration: none;
-  display: inline-block;
 }
-
-img,
-label,
-input,
-button,
-ion-icon {
-  display: block;
-}
-
-button,
-input {
-  background: none;
-  border: none;
-  font: inherit;
-}
-
-button {
-  cursor: pointer;
-}
-html {
-  font-family: var(--ff-open-sans);
-  color: var(--eerie-black);
-  font-size: 1rem;
-  line-height: 1.5;
-  scroll-behavior: smooth;
-}
-
 body {
-  background: var(--black);
-  /* overflow-x: hidden; */
-  color: var(--blanc);
+  padding: 0;
+  margin: 0;
 }
 /* header */
 
