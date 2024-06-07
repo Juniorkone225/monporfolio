@@ -54,14 +54,14 @@ var typed = new Typed(".typing", {
   loop: true,
 });
 
-/*setTimeout(function () {
+setTimeout(function () {
   $(".loader_bg").fadeToggle();
-}, 2500);*/
+}, 2500);
 // Attend que le contenu de la page soit chargé
-  window.addEventListener('load', function () {
+  /*window.addEventListener('load', function () {
     // Cache le fond de chargement
     $(".loader_bg").fadeOut();
-  });
+  });*/
 ScrollReveal().reveal(".section_acceuil_letf_content", {
   delay: 2700,
   distance: "60px",
