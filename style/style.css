@@ -540,6 +540,7 @@ body {
   margin: 0 auto;
   grid-template-columns: repeat(2, 1fr);
   padding: 2rem 0;
+  align-items:center;
 }
 
 /*===== About =====*/
